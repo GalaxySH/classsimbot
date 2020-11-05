@@ -1,0 +1,24 @@
+{
+  "name": "classsimbot",
+  "version": "0.1.0",
+  "description": "an attempt at a bot that simulates the world",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GalaxySH/classsimbot.git"
+  },
+  "keywords": [
+    "discord",
+    "discord-js",
+    "discord-bot"
+  ],
+  "author": "Rooskie",
+  "license": " GFDL-1.3-or-later",
+  "bugs": {
+    "url": "https://github.com/GalaxySH/classsimbot/issues"
+  },
+  "homepage": "https://github.com/GalaxySH/classsimbot#readme"
+}
