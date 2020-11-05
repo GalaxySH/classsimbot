@@ -1,0 +1,22 @@
+version: "3.8"
+services: 
+    bot:
+        container_name: crBot
+        restart: always
+        build: .
+        env_file: 
+            - ./.env
+        volumes: 
+            - ./:/src
+        links:
+            - mongo
+    mongo:
+        container_name: crmongo
+        image: mongo
+        env_file: 
+            - ./.env
+        volumes: 
+            - ./data:/data/db
+        command: mongod --port 27023
+        ports: 
+            - "27023:27023"
